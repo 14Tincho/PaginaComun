@@ -1,0 +1,147 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+h2{
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+p{
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.8 ;
+    margin-bottom: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+section{
+    padding: 120px 0;
+}
+.bg-light-grey{
+    background-color: #ebebeb;
+}
+.topmargin-xs{
+    margin-top: 15px;
+}
+.topmargin-sm{
+    margin-top: 30px;
+}
+.topmargin-lg{
+    margin-top: 60px;
+}
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.btn-light{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+.btn i{
+    font-size: 14px;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+.text-dark{
+   color: #1a1a1a; 
+}
+.play-logo{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* ---------------- NAVBAR------------------- */
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    min-width: 100px;
+    z-index: 9001;
+}
+.nav-link{
+    color: #1a1a1a;
+}
+.nav-link:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+.logo-brand{
+    min-width: 130px;
+    max-width: 140px;
+}
+.navbar-toggler{
+    font-size: 40px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+
+
+/* --------------------IMAGEN---------------- */
+#hero{
+    background-image: url("imagenes/hero.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+#hero p{
+    color: #dfdfdf;
+}
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+.portafolio-details{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+.portafolio-container img{
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.portafolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.portafolio-details h2{
+    margin-bottom: 0;
+}
+.portafolio-details a h2, .portafolio-details a p{
+    color: #ffffff;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 40px;
+        line-height: normal;
+    }
+}
+/* @media (max-width: 767.98px) { ... }
+@media (max-width: 991.98px) { ... }
+@media (max-width: 1199.98px) { ... } */
